@@ -1,0 +1,60 @@
+	
+<!DOCTYPE html>
+<head>
+    <title>rogue</title>
+   <style>
+* {
+    box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="column left" id="msg" style="background-color:#aaa;">
+  </div>
+  		<div class="column right" id="game" >
+  </div>
+</div>
+
+
+</body>
+
+
+
+<script src="gamestate.js"></script>
+<script src="render.js"></script>
+<script src="misc.js"></script>
+<script src="input.js"></script>
+<script src="cfg_data.js"></script>
+<script src="player.js"></script>
+<script src="debug.js"></script>
+<script src="rl.js"></script>
+<script src="gameobject.js"></script>
+<script src="map.js"></script>
+<script src="tileset.js"></script>
+<script> init() </script>
+</html>
+

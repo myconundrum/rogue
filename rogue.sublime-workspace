@@ -1,0 +1,795 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"_",
+				"_get_exit_dbref"
+			],
+			[
+				"EXI",
+				"EXIT_FLAG"
+			],
+			[
+				"FLAG",
+				"ROOM_FLAG"
+			],
+			[
+				"EXIT",
+				"EXIT_FLAG"
+			],
+			[
+				"_split",
+				"_split_command_string_on"
+			],
+			[
+				"d64_directo",
+				"d64_directory_entry_by_name"
+			],
+			[
+				"g_",
+				"g_vdrive_kpatch_1"
+			],
+			[
+				"VICII_RASTER_Y",
+				"VICII_RASTER_Y_LAST_VISIBLE_LINE_PAL"
+			],
+			[
+				"VICII_RASTER",
+				"VICII_RASTER_X_FIRST_VISIBLE_PIXEL_NTSC"
+			],
+			[
+				"VICII_v",
+				"VICII_PAL_VBLANK_LEFT"
+			],
+			[
+				"VICII_PALV_",
+				"VICII_PAL_VBLANK_LEFT"
+			],
+			[
+				"NTSC",
+				"NTSC_LINES"
+			],
+			[
+				"VICII_NTSC",
+				"VICII_NTSC_LINE_START_X"
+			],
+			[
+				"VICII_NTSC_SCREEN",
+				"VICII_NTSC_SCREENFRAME_WIDTH"
+			],
+			[
+				"uint",
+				"Uint32"
+			],
+			[
+				"tik",
+				"tickspersec"
+			],
+			[
+				"ux_handl",
+				"ux_handlec64joystick2"
+			],
+			[
+				"KERNA",
+				"KERNAL_ROM_LOW_ADDRESS"
+			],
+			[
+				"brk",
+				"brk_address"
+			],
+			[
+				"irq",
+				"irqbackground"
+			],
+			[
+				"VICII_SPRIT",
+				"VICII_SPRITEPRI"
+			],
+			[
+				"VICII_BACK",
+				"VICII_EBACKCOL1"
+			],
+			[
+				"VICII_MSR",
+				"VICII_MEMSR"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.htm",
+			"settings":
+			{
+				"buffer_size": 1032,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "rl.js",
+			"settings":
+			{
+				"buffer_size": 1439,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "render.js",
+			"settings":
+			{
+				"buffer_size": 1098,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "misc.js",
+			"settings":
+			{
+				"buffer_size": 116,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "map.js",
+			"settings":
+			{
+				"buffer_size": 2970,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gameobject.js",
+			"settings":
+			{
+				"buffer_size": 841,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "player.js",
+			"settings":
+			{
+				"buffer_size": 863,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cfg_data.js",
+			"settings":
+			{
+				"buffer_size": 361,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "input.js",
+			"settings":
+			{
+				"buffer_size": 1540,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tileset.js",
+			"settings":
+			{
+				"buffer_size": 668,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/marcw/code/html5/jsrl/messages.js",
+		"/Users/marcw/code/html5/jsrl/player.js",
+		"/Users/marcw/code/html5/jsrl/debug.js",
+		"/Users/marcw/code/html5/jsrl/gamestate.js",
+		"/Users/marcw/code/html5/jsrl/rl.js",
+		"/Users/marcw/code/html5/jsrl/cfg_data.js",
+		"/Users/marcw/code/html5/jsrl/tilemap",
+		"/Users/marcw/code/html5/castle/castle.js",
+		"/Users/marcw/code/c/blackjack/main.c",
+		"/Users/marcw/code/html5/3dtest/PointerLockControls.js",
+		"/Users/marcw/code/html5/3dtest/vertex_code.js",
+		"/Users/marcw/code/html5/3dtest/fragment_shader.js",
+		"/Users/marcw/code/html5/raycast/raycast.html",
+		"/Users/marcw/code/html5/raycast/raycast_old.js",
+		"/Users/marcw/code/html5/raycast/raycast.js",
+		"/Users/marcw/code/html5/pixitest/test.js",
+		"/Users/marcw/code/html5/pixitest/main.html",
+		"/Users/marcw/code/html5/castle/castle.html",
+		"/Users/marcw/code/html5/castle/gameobjects.js",
+		"/Users/marcw/code/html5/castle/sprite.js",
+		"/Users/marcw/code/golang/test/foo.py",
+		"/Users/marcw/code/golang/test/test.go",
+		"/Users/marcw/code/python/pymud/player.py",
+		"/Users/marcw/code/python/pymud/main.py",
+		"/Users/marcw/code/python/pymud/clients.py",
+		"/Users/marcw/code/python/pymud/db.py",
+		"/Users/marcw/code/python/pymud/mush_commands.py",
+		"/Users/marcw/code/python/pymud/world.py",
+		"/Users/marcw/code/python/miniboa-py3/handler_demo.py",
+		"/Users/marcw/code/python/pymud/miniboa/chat_demo.py",
+		"/Users/marcw/code/python/pymud/miniboa/telnet.py",
+		"/Users/marcw/code/python/pymud/miniboa/async.py",
+		"/Users/marcw/code/python/tetris/view.py",
+		"/Users/marcw/code/python/tetris/controller.py",
+		"/Users/marcw/code/python/tetris/main.py",
+		"/Users/marcw/code/python/voxel/voxel.py",
+		"/Users/marcw/code/python/3dgame/main.py",
+		"/Users/marcw/code/python/mltut/mltut.py",
+		"/Users/marcw/code/python/adventure/main.py",
+		"/Users/marcw/code/python/adventure/world.py",
+		"/Users/marcw/code/python/adventure/dungeon.py",
+		"/Users/marcw/code/python/adventure/gameobject.py",
+		"/Users/marcw/code/python/adventure/dungeon_features.py",
+		"/Users/marcw/code/python/adventure/gameobjects.ini",
+		"/Users/marcw/code/python/adventure/dungeonfeatures.ini",
+		"/Users/marcw/code/python/adventure/controller.py",
+		"/Users/marcw/code/python/adventure/view.py",
+		"/Users/marcw/code/c/rl/rl.log",
+		"/Users/marcw/code/c/rl/world.c",
+		"/Users/marcw/code/c/rl/ux.h",
+		"/Users/marcw/code/c/rl/world.h",
+		"/Users/marcw/code/c/rl/ux.c",
+		"/Users/marcw/code/c/rl/rl.h",
+		"/Users/marcw/code/c/gltest/main.c",
+		"/Users/marcw/code/c/rl/tiles.c",
+		"/Users/marcw/code/c/rl/ini.h",
+		"/Users/marcw/code/c/rl/ini.c",
+		"/Users/marcw/code/c/rl/tiles/tiles.ini",
+		"/Users/marcw/code/c/rl/main.c",
+		"/Users/marcw/code/c/rl/makefile",
+		"/Users/marcw/code/c/rl/SDL_FontCache.c",
+		"/Users/marcw/code/c/rl/SDL_FontCache.h",
+		"/Users/marcw/code/c/adv/main.c",
+		"/Users/marcw/code/rust/guessing_game/Cargo.toml",
+		"/Users/marcw/code/rust/guessing_game/src/main.rs",
+		"/Users/marcw/code/rusttest/Cargo.toml",
+		"/Users/marcw/code/rusttest/main.rs",
+		"/Users/marcw/code/pyrl/main.py",
+		"/Users/marcw/code/mq/main.c",
+		"/Users/marcw/code/mq/makefile",
+		"/Users/marcw/code/mq/object.py",
+		"/Users/marcw/code/mq/q2.py",
+		"/Users/marcw/code/mq/q.py",
+		"/Users/marcw/code/questcc/main.cc",
+		"/Users/marcw/code/quest/makefile",
+		"/Users/marcw/code/quest/list.h",
+		"/Users/marcw/code/quest/list.c",
+		"/Users/marcw/code/quest/room.c",
+		"/Users/marcw/code/quest/object.c",
+		"/Users/marcw/code/quest/object.h",
+		"/Users/marcw/code/quest/db.h",
+		"/Users/marcw/code/quest/attr.h",
+		"/Users/marcw/code/quest/attr.c",
+		"/Users/marcw/code/quest/db.c",
+		"/Users/marcw/code/quest/main.c",
+		"/Users/marcw/code/Conundrum64/src/c64/vdrive.h",
+		"/Users/marcw/code/Conundrum64/src/c64/c64.h",
+		"/Users/marcw/code/Conundrum64/src/c64/cpu.h",
+		"/Users/marcw/code/Conundrum64/src/c64/cpu.c",
+		"/Users/marcw/code/Conundrum64/src/c64/c64.c",
+		"/Users/marcw/code/Conundrum64/src/emu.h",
+		"/Users/marcw/code/Conundrum64/conundrum64.ini",
+		"/Users/marcw/code/Conundrum64/src/main.c",
+		"/Users/marcw/code/Conundrum64/src/ux/ux.h",
+		"/Users/marcw/code/Conundrum64/src/ux/ux.c",
+		"/Users/marcw/code/Conundrum64/src/c64/vdrive.c",
+		"/Users/marcw/code/Conundrum64/asm/testcart.asm",
+		"/Users/marcw/code/Conundrum64/src/c64/d64.h",
+		"/Users/marcw/code/Conundrum64/src/c64/d64.c",
+		"/Users/marcw/code/Conundrum64/con64",
+		"/Users/marcw/code/Conundrum64/c64.log",
+		"/Users/marcw/code/Conundrum64/asm/testvfs.prg",
+		"/Users/marcw/code/Conundrum64/asm/kpattn.prg",
+		"/Users/marcw/code/Conundrum64/asm/kpbusv3.prg",
+		"/Users/marcw/code/Conundrum64/asm/kpload.prg",
+		"/Users/marcw/code/Conundrum64/asm/kpload.asm",
+		"/Users/marcw/code/Conundrum64/asm/kpbusv2.prg",
+		"/Users/marcw/code/Conundrum64/asm/kpbusv3p2.asm",
+		"/Users/marcw/code/Conundrum64/asm/kpbusv3.asm",
+		"/Users/marcw/code/Conundrum64/asm/kpbusv2p2.asm",
+		"/Users/marcw/code/Conundrum64/asm/kpattn.asm",
+		"/Users/marcw/code/Conundrum64/asm/testvfs.asm",
+		"/Users/marcw/code/Conundrum64/src/c64/vicii.c",
+		"/Users/marcw/code/Conundrum64/src/c64/cia.c",
+		"/Users/marcw/code/Conundrum64/src/c64/mem.c",
+		"/Users/marcw/code/Conundrum64/makefile",
+		"/private/etc/paths",
+		"/Users/marcw/code/Conundrum64/src/ux/SDL_FontCache.h",
+		"/Users/marcw/code/Conundrum64/asm/smileymov.asm",
+		"/Users/marcw/code/Conundrum64/src/c64/c64kbd.c",
+		"/Users/marcw/code/Conundrum64/src/ux/fileload.c",
+		"/Users/marcw/code/Conundrum64/src/c64/vicii.h",
+		"/Users/marcw/code/Conundrum64/src/c64/sysclock.h",
+		"/Users/marcw/code/Conundrum64/c64b.log",
+		"/Users/marcw/Downloads/step24/jmain.asm",
+		"/Users/marcw/code/Conundrum64/asm/test.asm",
+		"/Users/marcw/code/Conundrum64/asm/vdrive.asm",
+		"/Users/marcw/code/Conundrum64/src/c64/joystick.h"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.htm",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1032,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								996,
+								996
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 300.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "rl.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1439,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								872,
+								872
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 720.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "render.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1098,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								741,
+								741
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "misc.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22,
+								22
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "map.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2970,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								800,
+								800
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "gameobject.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 841,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								397,
+								397
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "player.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 863,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								651,
+								651
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "cfg_data.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 361,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								258,
+								258
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "input.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1540,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								370,
+								370
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "tileset.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 668,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								666,
+								666
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "rogue.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 186.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
