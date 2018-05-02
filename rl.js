@@ -1,8 +1,6 @@
 
 
-var ROWS = 10
-var COLS = 13
-var TILESIZE = 64
+
 
 // global game variables stored here.
 var game;
@@ -59,10 +57,13 @@ function createRoom() {
 function update () {
 
 	game.renderer.clear();
-	
+	game.player.look();
 	var o;
 	for (i = 0; i < ROWS; i++) {
 		for (j = 0;j < COLS; j++) {
+			if (!game.map.explored(i,j)) {
+				continue;
+			}
 
 			o = game.map.getBase(i,j);
 			game.renderer.drawTile(o.tile,j*TILESIZE,i*TILESIZE);

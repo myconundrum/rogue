@@ -1,4 +1,8 @@
 
+var ROWS = 10
+var COLS = 13
+var TILESIZE = 64
+
 
 function Renderer() {
 

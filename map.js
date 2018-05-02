@@ -7,6 +7,7 @@ function Location() {
 	this.baseId 		= "";     	// tile ID of the base for a location
 	this.objectIndex 	= NONE;		// index into the object array
 	this.creatureIndex 	= NONE;		// index into the creature array
+	this.explored 		= false;
 }
 
 
@@ -48,6 +49,18 @@ GameMap.prototype.getCreature = function(row,col) {
 	}
 
 	return o;
+}
+
+GameMap.prototype.setExplored = function(row,col) {
+
+	if (this.validLoc(row,col)) {
+		this.data[row][col].explored = true;
+	}
+}
+
+
+GameMap.prototype.explored = function(row,col) {
+	return this.validLoc(row,col) && this.data[row][col].explored;
 }
 
 
