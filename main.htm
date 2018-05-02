@@ -1,61 +1,49 @@
 	
-<!DOCTYPE html>
+<html>
 <head>
-    <title>rogue</title>
-   <style>
-* {
-    box-sizing: border-box;
+<style>
+
+
+#game {
+	width: 1000px;
+  margin:auto;
+	padding:10px;
 }
 
-/* Create two unequal columns that floats next to each other */
-.column {
-    float: left;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+html, body {
+      background-color: #000000;
+      color: #fff;
+      margin: 0px;
+      overflow: hidden;
 }
-
-.left {
-  width: 25%;
-}
-
-.right {
-  width: 75%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+canvas {
+	background-color: #000000;
+  align:center;
 }
 </style>
 </head>
 <body>
-
-<div class="row">
-  <div class="column left" id="msg" style="background-color:#aaa;">
-  </div>
-  		<div class="column right" id="game" >
-  </div>
-</div>
+	 <div>
+    	<canvas id="game" width="1024" height="800" style="border:1px solid #000000;"></canvas>
+    </div>
 
 
+	<script src="gamestate.js"></script>
+	<script src="render.js"></script>
+	<script src="fov.js"></script>
+	<script src="misc.js"></script>
+	<script src="input.js"></script>
+	<script src="cfg_data.js"></script>
+	<script src="player.js"></script>
+	<script src="debug.js"></script>
+	<script src="rl.js"></script>
+	<script src="gameobject.js"></script>
+	<script src="map.js"></script>
+	<script src="tileset.js"></script>
+	<script> 
+		init();
+	</script>
 </body>
 
-
-
-<script src="gamestate.js"></script>
-<script src="render.js"></script>
-<script src="fov.js"></script>
-<script src="misc.js"></script>
-<script src="input.js"></script>
-<script src="cfg_data.js"></script>
-<script src="player.js"></script>
-<script src="debug.js"></script>
-<script src="rl.js"></script>
-<script src="gameobject.js"></script>
-<script src="map.js"></script>
-<script src="tileset.js"></script>
-<script> init() </script>
 </html>
 

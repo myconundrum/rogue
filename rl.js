@@ -50,36 +50,8 @@ function createRoom() {
 
 function update () {
 
-	game.renderer.clear();
+	game.renderer.update();
 	game.player.look();
-
-	var o;
-	for (i = 0; i < ROWS; i++) {
-		for (j = 0;j < COLS; j++) {
-
-			if (!game.map.explored(i,j)) {
-				continue;
-			}
-
-			o = game.map.getBase(i,j);
-			game.renderer.drawTile(o.tile,j*TILESIZE,i*TILESIZE);
-
-			if (game.map.hasObject(i,j)) {
-				o = game.map.getObject(i,j);
-				game.renderer.drawTile(o.tile,j*TILESIZE,i*TILESIZE);
-			}
-
-			if (game.map.hasCreature(i,j)) {
-				o = game.map.getCreature(i,j);
-				game.renderer.drawTile(o.tile,j*TILESIZE,i*TILESIZE);
-			}
-		}
-	}
-
-	if (game.flags["showTile"]) {
-		game.renderer.drawTile(game.debug.tileIndex,0,0);		
-	}
-	
 	window.requestAnimationFrame(update);
 }
 
