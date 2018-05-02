@@ -186,3 +186,4 @@ GameMap.prototype.addCreature = function(o,row,col) {
 
 
 
+

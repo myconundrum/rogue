@@ -9,7 +9,6 @@ function randInt(min, max) {
 }
 
 
-
 function pointsDistance(p1,p2) {
 
     var t1 = p2.x - p1.x;
@@ -57,4 +56,13 @@ function Point(x,y) {
 	this.matches = function(p) {
 		return (this.x === p.x) && (this.y === p.y);
 	}
+}
+
+
+function isValid(x,y) {
+	return game.map.validLoc(y,x);
+}
+
+function isTransparent(x,y) {
+	return isValid(x,y) && game.map.getBase(y,x).hasFlag('TRANSPARENT');
 }

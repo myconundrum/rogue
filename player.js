@@ -6,24 +6,19 @@ function Player() {
 
 	GameObject.call(this,"player");
 	this.gold = 0;
-	this.fov = new Field();
-	
+	this.fov = new Field(isValid,isTransparent);
+	this.fov.setRadius(5);	
 }
-
 
 Player.prototype.look = function() {
 
-
-	this.fov.center = new Point(this.col,this.row);
-	this.fov.radius = 5;
+	this.fov.setCenter(this.col,this.row)
 	this.fov.cast();
 
 	for (i = 0; i < this.fov.points.length;i++) {
 		game.map.setExplored(this.fov.points[i].y,this.fov.points[i].x);
 	}
 }
-
-
 
 Player.prototype.move = function(dr,dc) {
 	// try to move to new location.

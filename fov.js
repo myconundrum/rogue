@@ -1,7 +1,3 @@
-
-
-
-
 //
 // creates a field of points that are weighted by distance from the center. 
 // the weight formula is 1 / (distance from center + 1)
@@ -12,8 +8,9 @@
 // during the first update. 
 //
 //
-// Note -- the field will be blocked by objects with the A_FLAG_BLOCKLOS flag unless
-// the ghost variable is set to true.
+// Note -- the field expects two functions isValid() which returns true if a particular x,y is a valid location
+// and isTransparent() which returns true if a particular x,y lets rays pass through. 
+// If Ghost is set, rays always pass through, ignoring isTransparent().
 //
 //
 // If you set the "keepOld" flag, the field will keep old points from the last cast.
@@ -22,7 +19,7 @@
 
 
 
-function Field() {
+function Field(isValid,isTransparent) {
 
     //
     // radius of the field
@@ -33,9 +30,31 @@ function Field() {
     this.center         = new Point(0,0);   
     this.ghost          = false;
     this.keepOld        = false;
+    this.isValid        = isValid;
+    this.isTransparent  = isTransparent;
+
 
 }
 
+Field.prototype.setRadius = function(r) {
+    this.radius = r;
+}
+
+Field.prototype.setCenter = function (x,y) {
+    this.center = new Point(x,y);
+}
+
+Field.prototype.setGhost = function (f) {
+    this.ghost = f;
+}
+
+Field.prototype.setKeepOld = function (f) {
+    this.keepOld = f;
+}
+
+Field.prototype.setDecay = function (d) {
+    this.decay = d;
+}
 
 Field.prototype.updateList = function(list) {
 
@@ -107,7 +126,7 @@ Field.prototype.castRay = function(dirX,dirY,touched) {
         //
         //check for out of bounds.
         //
-        done = !game.map.validLoc(y,x)
+        done = !this.isValid(x,y);
         if (done) {
             break;
         }
@@ -122,7 +141,7 @@ Field.prototype.castRay = function(dirX,dirY,touched) {
         //
         // check to see if we should block our LOS
         //
-        if (!game.map.getBase(y,x).hasFlag("PASSABLE") && !this.ghost) {
+        if (!this.ghost && !this.isTransparent(x,y)) {
             done = true;
             break;
         }

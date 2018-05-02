@@ -8,14 +8,10 @@ var game;
 function init() {
 	
 	game = new GameState();
-
-
 	window.requestAnimationFrame(update);
-
  	
  	game.playerIndex = 0;
  	game.map.addCreature(game.player,4,4);
-
 
  	createRoom();
  	createGold();
@@ -37,9 +33,7 @@ function createGold() {
 			o.gold = randInt(1,20);
 			game.map.addObject(o,r,c);
 		}
-
 	}
-
 }
 
 function createRoom() {
@@ -58,9 +52,11 @@ function update () {
 
 	game.renderer.clear();
 	game.player.look();
+
 	var o;
 	for (i = 0; i < ROWS; i++) {
 		for (j = 0;j < COLS; j++) {
+
 			if (!game.map.explored(i,j)) {
 				continue;
 			}
@@ -77,15 +73,13 @@ function update () {
 				o = game.map.getCreature(i,j);
 				game.renderer.drawTile(o.tile,j*TILESIZE,i*TILESIZE);
 			}
-			
 		}
 	}
 
 	if (game.flags["showTile"]) {
 		game.renderer.drawTile(game.debug.tileIndex,0,0);		
 	}
-
-
+	
 	window.requestAnimationFrame(update);
 }
 
