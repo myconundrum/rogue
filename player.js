@@ -37,8 +37,7 @@ Player.prototype.move = function(dr,dc) {
 		if (o.hasFlag("CARRYABLE")) {
 			if (o.hasFlag("TREASURE")) {
 				this.gold += o.gold;
-				game.renderer.sendMessage(o.getMessage("onpickup"));
-				game.renderer.sendMessage("You have " + this.gold.toString() + " gold.");
+				game.messages.sendMessage("PLAYER",0,o.getMessage("onpickup"));
 				game.map.removeObject(this.row,this.col);
 			}
 			else {
